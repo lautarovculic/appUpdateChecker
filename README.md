@@ -18,7 +18,7 @@ A simple Python script to track the update status of Android apps on the Google 
 
 ## Installation
 
-To install the script and its dependencies, run the following command:
+To install the script, run the following command:
 ```bash
 curl -sSL https://raw.githubusercontent.com/lautarovculic/appUpdateChecker/main/install.sh | bash
 ```
