@@ -25,7 +25,7 @@ curl -sSL https://raw.githubusercontent.com/lautarovculic/appUpdateChecker/main/
 
 This will:
 
-    Download the script to /usr/local/bin/appUpdateChecker
+    Download the script to $HOME/.local/bin/appUpdateChecker
 
 # Usage
 
