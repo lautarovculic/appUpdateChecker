@@ -76,7 +76,7 @@ class AppUpdateChecker:
         }
         
         self.save_data(data)
-        print(f"{Fore.GREEN}[+] Sucess{Fore.RESET} - Package {Fore.GREEN}{package_name}{Fore.RESET} added successfully!")
+        print(f"{Fore.GREEN}[+] Success{Fore.RESET} - Package {Fore.GREEN}{package_name}{Fore.RESET} added successfully!")
         print(f"{Fore.BLUE}[*] Info{Fore.RESET} - Last update: {Fore.BLUE}{update_date}{Fore.RESET}")
         print(f"{Fore.BLUE}[*] Info{Fore.RESET} - Checking date since: {Fore.BLUE}{current_date}{Fore.RESET}\n")
 
@@ -86,7 +86,7 @@ class AppUpdateChecker:
         if package_name in data:
             del data[package_name]
             self.save_data(data)
-            print(f"{Fore.GREEN}[+] Sucess{Fore.RESET} - Package {Fore.GREEN}{package_name}{Fore.RESET} deleted successfully!\n")
+            print(f"{Fore.GREEN}[+] Success{Fore.RESET} - Package {Fore.GREEN}{package_name}{Fore.RESET} deleted successfully!\n")
         else:
             print(f"{Fore.RED}[!] Error{Fore.RESET} - Package {Fore.RED}{package_name}{Fore.RESET} doesn't exists in database\n")
 
