@@ -2,6 +2,8 @@
 
 A simple Python script to track the update status of Android apps on the Google Play Store. This tool allows you to add, delete, and check updates for packages, storing the data locally.
 
+![Example](https://i.imgur.com/RPe4Cvb.png)
+
 ## Features
 
 - Add Android app packages to a tracking list.
