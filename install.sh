@@ -1,17 +1,17 @@
 #!/bin/bash
 
-# Nombre del archivo destino
+# File name
 SCRIPT_NAME="appUpdateChecker"
 
-# Ruta donde se instalará
-INSTALL_PATH="/usr/local/bin/$SCRIPT_NAME"
+# Path install
+INSTALL_PATH="$HOME/.local/bin/$SCRIPT_NAME"
 
 echo "Installing $SCRIPT_NAME..."
 
-# Descargar el script principal desde el repositorio de GitHub
+# Download script
 curl -sSL "https://raw.githubusercontent.com/lautarovculic/appUpdateChecker/main/appUpdateChecker.py" -o "$INSTALL_PATH"
 
-# Dar permisos de ejecución
+# Execution permissions
 chmod +x "$INSTALL_PATH"
 
 echo "$SCRIPT_NAME installed successfully in $INSTALL_PATH"
