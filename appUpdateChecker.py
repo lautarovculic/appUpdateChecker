@@ -109,8 +109,6 @@ class AppUpdateChecker:
                     print(f"{Fore.GREEN}[+] NEW!{Fore.RESET} - {Fore.GREEN}{package_name}{Fore.RESET} - New update available! Updated: {Fore.GREEN}{info['last_update']}{Fore.RESET}")
                     print(f"Last date that you has checked: {Fore.RED}{info['check_date']}{Fore.RESET}\n")
 
-                
-
                 # Update last date
                 current_update = self.get_play_store_update_date(package_name)
                 if current_update and current_update != info['last_update']:
@@ -120,7 +118,6 @@ class AppUpdateChecker:
             except Exception as e:
                 print(f"{Fore.RED}[!] Error{Fore.RESET} - Cannot verify {Fore.RED}{package_name}{Fore.RESET}: {e}")
         
-        
         # Sync last check
         print(f"{Fore.BLUE}[*] Info - Updating last check date to today{Fore.RESET}\n")
         current_date = datetime.now().strftime('%b %d, %Y')
@@ -128,7 +125,6 @@ class AppUpdateChecker:
             data[package_name]['check_date'] = current_date
         self.save_data(data)
         print(f"{Fore.GREEN}[+] Success{Fore.RESET} - All packages updated with today's date: {Fore.GREEN}{current_date}{Fore.RESET}\n")
-        
 
 def main():
     # Banner
