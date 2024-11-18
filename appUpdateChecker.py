@@ -133,7 +133,7 @@ class AppUpdateChecker:
 def main():
     # Banner
     print(f"{Fore.RED}+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+{Fore.RESET}")
-    print(f"{Fore.RED}-{Fore.RESET}{Fore.WHITE}App Update Checker v0.1.0 - Lautaro V. Culic' (lautarovculic.com){Fore.RESET}{Fore.RED}-{Fore.RESET}")
+    print(f"{Fore.RED}-{Fore.RESET}{Fore.WHITE}App Update Checker v0.1.1 - Lautaro V. Culic' (lautarovculic.com){Fore.RESET}{Fore.RED}-{Fore.RESET}")
     print(f"{Fore.RED}+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+{Fore.RESET}\n")
 
     # Help panel
