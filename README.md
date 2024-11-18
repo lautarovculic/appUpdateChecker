@@ -1,4 +1,4 @@
-# App Update Checker
+# App Update Checker v0.1.0
 
 A simple Python script to track the update status of Android apps on the Google Play Store. This tool allows you to add, delete, and check updates for packages, storing the data locally.
 
