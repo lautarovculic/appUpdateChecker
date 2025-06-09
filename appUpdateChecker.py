@@ -80,8 +80,6 @@ class AppUpdateChecker:
 
     def parse_play_store_date(self, date_str: str) -> Optional[datetime]:
         # Parse Play Store date ###################################################################################################################
-        return None
-
         # Clean the date string #####
         date_str = date_str.strip()
         
