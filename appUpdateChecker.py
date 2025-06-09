@@ -113,7 +113,7 @@ class AppUpdateChecker:
     def get_play_store_update_date(self, package_name: str) -> Tuple[Optional[str], Optional[str]]:
         # Get last update #########################################################################################################################
         try:
-            url = f"https://play.google.com/store/apps/details?id={package_name}&hl=en&gl=us"
+            url = f"https://play.google.com/store/apps/details?id={package_name}&hl=en"
             
             # #Avoid rate limit ####
             time.sleep(1)
